@@ -29,11 +29,13 @@ p
 h2 a
 {
     color: #e9636f;
+    opacity: 0.33;
 }
 h2
 {
   font-size:30px;
   font-family: cursive;
+  
 }
 h4
 {
@@ -62,3 +64,7 @@ img
             display: flex;
             justify-content: space-around;
         }
+.text
+{
+  font-family:inherit;
+}

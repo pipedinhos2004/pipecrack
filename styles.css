@@ -2,6 +2,9 @@ body
 
   {
             background-color: rgb(217, 246, 247);
+            margin: 60px;
+            border: 20px solid rgb(0, 0, 0);
+            padding: 15px;
         }
 
         h2 {
@@ -18,24 +21,30 @@ img
 {
     display: block;
     margin: auto;
+    border: 6px dashed black;
 
 }
 
 p
 {
     margin: 50px 0px;
+    border: 1px solid rgb(161, 161, 161);
+    background: rgb(173,216,230);
 }
 
 h2 a
 {
     color: #e9636f;
     opacity: 0.33;
+    width: 180px;
+    height: 180px;
+    overflow: auto;
 }
 h2
 {
   font-size:30px;
   font-family: cursive;
-  
+
 }
 h4
 {
@@ -52,6 +61,8 @@ img
             display: flex;
             justify-content: space-around;
             align-items: flex-start;
+            border: 2px solid rgb(161, 161, 161);
+
         }
 
 .section-one h4 {
@@ -67,4 +78,17 @@ img
 .text
 {
   font-family:inherit;
+}
+.netflix {
+  color: #0000FF;
+}
+#official-info {
+            background: rgb(173,216,230);
+        }
+#numero-s {
+  width: 200px;
+  height: 200px;
+
+
+
 }
